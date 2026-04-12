@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg, #000, #222);
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.logo {
+    color: #ffcc00;
+    font-size: 40px;
+}
+
+.tag {
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.form-box {
+    background: #111;
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ffcc00;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+span {
+    color: #ffcc00;
+    cursor: pointer;
+}
+
+.captcha-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#captchaText {
+    background: #333;
+    padding: 8px;
+}
