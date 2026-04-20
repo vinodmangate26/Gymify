@@ -2,7 +2,6 @@
 function hashPassword(password) {
     return btoa(password); // base64 (demo hashing)
 }
-
 // CAPTCHA
 function generateCaptcha() {
     let chars = "ABCDEFG123456";
